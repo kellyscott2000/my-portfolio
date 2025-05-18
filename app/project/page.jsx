@@ -36,6 +36,38 @@ const projects = [
     image: "/assets/mobile_app2.jpg",
     github: "",
   },
+  {
+    num: "03",
+    category: "Frontend",
+    title: "React Redux CRUD Application",
+    description:
+      "Developed a CRUD application using vite, react and redux. This project is just show the create, read, update, and delete operations using react redux.",
+    stack: [{ name: "React.js" }, { name: "Vite" }, { name: "Redux" }],
+    image: "/assets/crud.png",
+    github: "https://github.com/kellyscott2000/frontend-react-redux-crud-app",
+  },
+  {
+    num: "04",
+    category: "Frontend",
+    title: "Book record keeping",
+    description:
+      "Developed a CRUD application for a book store using react.js. The web application is designed to allow the taking if records of books.",
+    stack: [{ name: "React.js" }],
+    image: "/assets/book.png",
+    github: "https://github.com/kellyscott2000/bookstore-react-frontend-project",
+  },
+{
+    num: "05",
+    category: "Frontend",
+    title: "E-commerce Admin Panel",
+    description:
+      "Designed the frontend for an e-commerce admin panel.",
+    stack: [{ name: "React.js" }],
+    image: "/assets/e-commerce.png",
+    github: "https://github.com/kellyscott2000/e-commerce-admin-panel",
+  },
+
+ 
 ];
 
 const Project = () => {

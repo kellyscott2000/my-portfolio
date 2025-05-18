@@ -69,9 +69,19 @@ const experience = {
     "Experienced professional with a diverse background in finance, quality assurance, and design. As a Credit Officer, I honed my analytical and problem-solving skills. My roles as a QA Engineer and Graphic Design Intern further enhanced my technical and creative abilities, equipping me with a multidisciplinary approach to deliver effective solutions and drive project success.",
   items: [
     {
+      company: "Celltel Networks Limited",
+      position: "IT Support Assistant",
+      duration: "2024",
+    },
+    {
       company: "Pan-African Savings and Loans-ECOBANK",
       position: "Credit Officer",
-      duration: "2023 - present",
+      duration: "2023 - 2024",
+    },
+    {
+      company: "Thelsam Financial Services",
+      position: "IT Support Specialist",
+      duration: "2020 - 2022",
     },
     {
       company: "Safr Solutions limited. ",
