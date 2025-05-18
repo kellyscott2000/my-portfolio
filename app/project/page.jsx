@@ -16,26 +16,39 @@ import Image from "next/image";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [
+
   {
     num: "01",
-    category: "Full stack",
-    title: "Pharmacy delivery web application",
+    category: "Full Stack",
+    title: "Food delivery system frontend",
     description:
-      "Developed a pharmacy delivery web app for medication orders, prescription uploads, and delivery. Led UI/UX design, used Next.js for frontend, integrated with backend systems, and ensured secure payments. Refined features based on user feedback and delivered on time.",
-    stack: [{ name: "Next.js" }, { name: "MongoDb" }],
-    image: "/assets/mobile_app2.jpg",
-    github: "",
+      "Developed a food delivery system (fulstack), where customers can make their orders and it will either be delivered to them or they pick it up at the restauurant location depending on the choosen option.",
+    stack: [
+      { name: "React.js" },
+      { name: "vite" },
+      { name: "node.js" },
+      { name: "MongoDB" },
+    ],
+    image: "/assets/fds2.png",
+    github: "https://github.com/kellyscott2000/food-delivery-system-frontend",
   },
+
   {
     num: "02",
-    category: "UI/UX",
-    title: "Pharmacy delivery web application",
+    category: "Full Stack",
+    title: "Food delivery system admin side",
     description:
-      "Developed a pharmacy delivery web app for medication orders, prescription uploads, and delivery. Led UI/UX design, used Next.js for frontend, integrated with backend systems, and ensured secure payments. Refined features based on user feedback and delivered on time.",
-    stack: [{ name: "Figma" }],
-    image: "/assets/mobile_app2.jpg",
-    github: "",
+      "Developed a food delivery system (fulstack), where customers can make their orders and it will either be delivered to them or they pick it up at the restauurant location depending on the choosen option.",
+    stack: [
+      { name: "React.js" },
+      { name: "vite" },
+      { name: "node.js" },
+      { name: "MongoDB" },
+    ],
+    image: "/assets/fds.png",
+    github: "https://github.com/kellyscott2000/food-delivery-system-admin-side",
   },
+ 
   {
     num: "03",
     category: "Frontend",
@@ -54,20 +67,39 @@ const projects = [
       "Developed a CRUD application for a book store using react.js. The web application is designed to allow the taking if records of books.",
     stack: [{ name: "React.js" }],
     image: "/assets/book.png",
-    github: "https://github.com/kellyscott2000/bookstore-react-frontend-project",
+    github:
+      "https://github.com/kellyscott2000/bookstore-react-frontend-project",
   },
-{
+  {
     num: "05",
     category: "Frontend",
     title: "E-commerce Admin Panel",
-    description:
-      "Designed the frontend for an e-commerce admin panel.",
+    description: "Designed the frontend for an e-commerce admin panel.",
     stack: [{ name: "React.js" }],
     image: "/assets/e-commerce.png",
     github: "https://github.com/kellyscott2000/e-commerce-admin-panel",
   },
 
- 
+   {
+    num: "06",
+    category: "Full stack",
+    title: "Pharmacy delivery web application",
+    description:
+      "Developed a pharmacy delivery web app for medication orders, prescription uploads, and delivery. Led UI/UX design, used Next.js for frontend, integrated with backend systems, and ensured secure payments. Refined features based on user feedback and delivered on time.",
+    stack: [{ name: "Next.js" }, { name: "MongoDb" }],
+    image: "/assets/mobile_app2.jpg",
+    github: "",
+  },
+  {
+    num: "07",
+    category: "UI/UX",
+    title: "Pharmacy delivery web application",
+    description:
+      "Developed a pharmacy delivery web app for medication orders, prescription uploads, and delivery. Led UI/UX design, used Next.js for frontend, integrated with backend systems, and ensured secure payments. Refined features based on user feedback and delivered on time.",
+    stack: [{ name: "Figma" }],
+    image: "/assets/mobile_app2.jpg",
+    github: "",
+  },
 ];
 
 const Project = () => {
@@ -98,6 +130,9 @@ const Project = () => {
 
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-amber-400 transition-all duration-500 capitalize">
                 {project.category} Project
+              </h2>
+              <h2 className="text-[22px] font-bold leading-none text-white group-hover:text-amber-400 transition-all duration-500 capitalize">
+                {project.title}
               </h2>
               <p className="text-white/60 text-justify">
                 {project.description}
