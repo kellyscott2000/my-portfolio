@@ -87,17 +87,17 @@ const projects = [
     description:
       "Developed a pharmacy delivery web app for medication orders, prescription uploads, and delivery. Led UI/UX design, used Next.js for frontend, integrated with backend systems, and ensured secure payments. Refined features based on user feedback and delivered on time.",
     stack: [{ name: "Next.js" }, { name: "MongoDb" }],
-    image: "/assets/mobile_app2.jpg",
+    image: "/assets/pharm.jpg",
     github: "",
   },
   {
     num: "07",
-    category: "UI/UX",
-    title: "Pharmacy delivery web application",
+    category: "Graphic Design",
+    title: "Hair growth oil Design",
     description:
-      "Developed a pharmacy delivery web app for medication orders, prescription uploads, and delivery. Led UI/UX design, used Next.js for frontend, integrated with backend systems, and ensured secure payments. Refined features based on user feedback and delivered on time.",
-    stack: [{ name: "Figma" }],
-    image: "/assets/mobile_app2.jpg",
+      "Designed a graphic for an hair growth oil product.",
+    stack: [{ name: "Canva" }],
+    image: "/assets/uiux.jpg",
     github: "",
   },
 ];
